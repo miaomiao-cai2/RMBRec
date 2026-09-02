@@ -18,6 +18,8 @@
 
 ## 📖 Overview
 
+<p align="center"> <img src="architecture.png" alt="RMBRec architecture: Representation Robustness Module and Optimization Robustness Module" width="100%"> </p> <p align="center"><em>Figure: Overview of RMBRec. The Representation Robustness Module (RRM) pulls each user's auxiliary-behavior embeddings toward their target-behavior (purchase) embedding via target-anchored contrastive learning; the Optimization Robustness Module (ORM) treats each behavior as a distinct environment and minimizes the variance of predictive risk across them before the behaviors are fused for target-behavior prediction.</em></p>
+
 ## 🔧 Requirements
 
 ```
